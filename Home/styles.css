@@ -1,0 +1,126 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+}
+
+.input {
+	max-width: 190px;
+	background-color: #f5f5f5;
+	color: #242424;
+	padding: .15rem .5rem;
+	min-height: 20px;
+	border-radius: 4px;
+	outline: none;
+	border: none;
+	line-height: 1.15;
+	box-shadow: 0px 10px 20px -18px;
+  }
+  
+  input:focus {
+	border-bottom: 2px solid #5b5fc7;
+	border-radius: 4px 4px 2px 2px;
+  }
+  
+  input:hover {
+	outline: 1px solid lightgrey;
+  }
+
+nav ul {
+	list-style: none; /* remove bullet points */
+	margin: 0; /* remove default margin */
+	padding: 0; /* remove default padding */
+	display: flex; /* make the list items display horizontally */
+	justify-content: left; /* align the list items to the left */
+  }
+  
+  nav li {
+	margin-right: 20px; /* add some space between list items */
+  }
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ccc;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	padding: 2em;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
+button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #444;
+}
+
+#toggle-theme {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+  }
+
+/* Dark mode styles */
+.dark-mode {
+	background-color: #333;
+	color: #fff;
+}
+
+.dark-mode header {
+  background-color: #fff;
+  color: #333;
+}
+
+.dark-mode header nav a {
+  color: #333;
+}
+
+.dark-mode h2 {
+  color: #333;
+}
+
+.dark-mode p {
+  color: #333;
+}
+
+.dark-mode nav a {
+	color: #fff;
+}
+
+.dark-mode nav a:hover {
+	color: #ccc;
+}
+
+.dark-mode p {
+	color: #fff;
+}
+
+.dark-mode main {
+	background-color: #333;
+	color: #fff;
+}

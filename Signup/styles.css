@@ -1,0 +1,193 @@
+header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+  
+  header nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #f0f0f0;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    color: #f0f0f0;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 300px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#login-btn {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login-btn:hover {
+    background-color: #3e8e41;
+}
+
+#error-msg {
+    color: #ff0000;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a:hover {
+    color: #23527c;
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none; /* remove bullet points */
+	margin: 0; /* remove default margin */
+	padding: 0; /* remove default padding */
+	display: flex; /* make the list items display horizontally */
+	justify-content: left; /* align the list items to the left */
+  }
+  
+  nav li {
+	margin-right: 20px; /* add some space between list items */
+  }
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ccc;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2em;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
+button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #444;
+}
+
+#toggle-theme {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+/* Dark mode styles */
+.dark-mode {
+	background-color: #333;
+	color: #fff;
+}
+
+.dark-mode header {
+  background-color: #fff;
+  color: #333;
+}
+
+.dark-mode header nav a {
+  color: #333;
+}
+
+.dark-mode h2 {
+  color: #333;
+}
+
+.dark-mode p {
+  color: #333;
+}
+
+.dark-mode nav a {
+	color: #fff;
+}
+
+.dark-mode nav a:hover {
+	color: #ccc;
+}
+
+.dark-mode main {
+	background-color: #333;
+	color: #fff;
+}

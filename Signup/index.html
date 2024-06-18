@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up</title>
+	<link rel="stylesheet" href="styles.css">
+	<meta http-equiv="Content-Security-Policy" content="default-src 'elf'; script-src 'elf' https://cdn.example.com; style-src 'elf' https://fonts.googleapis.com;">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="../home/index.html">Home</a></li>
+				<li><a href="../About/index.html">About</a></li>
+				<li><a href="../Contact/index.html">Contact Me</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+        <div class="container">
+            <div class="login-form">
+                <h2>Sign Up</h2>
+                <form>
+                    <input type="email" id="email" placeholder="Email">
+                    <input type="password" id="password" placeholder="Password">
+                    <button id="login-btn">Login</button>
+                    <p id="error-msg"></p>
+                </form>
+                <p>Already have an account?<a href="../login/index.html">Log in</a></p>
+            </div>
+        </div> 
+	</main>
+<!--<button id="toggle-theme">Toggle Dark Mode</button>-->
+	<script src="script.js"></script>
+</body>
+</html>
