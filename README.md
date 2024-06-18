@@ -1,6 +1,47 @@
 <h1>Fully Functional Blogging Site using HTML, CSS, and JavaScript</h1>
 <p>Hi, this is a blogging site written mainly in HTML.</p>
 <p>Lots of improvements are still needed, though this should provide a base.</p>
+<h2>Features:</h2>
+<pre>•	Fully functional website
+•	some effort for security
+•	Login/Signup Frontend
+•	Dark-mode theme developed but not implemented</pre>
+<h2>File structure:</h2>
+<pre>Website/
+├── About/
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+├── Home/
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+├── Login/
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+├── Sign Up/
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+├── Contact/
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+└── Blog-posts/
+    ├── images
+    ├── 1/
+    │   └── index.html
+    ├── styles.css
+    ├── script.js
+    ├── 2/
+    │   └── index.html
+    ├── styles.css
+    ├── script.js
+    ├── index.html
+    ├── styles.css
+    └── script.js
+</pre>
 <h2>MIT LICENSE</h2>
 <p>MIT License
 
